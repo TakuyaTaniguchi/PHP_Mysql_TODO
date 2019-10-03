@@ -75,8 +75,3 @@ form{
     </table>
 </body>
 </html>
-
-<?php
-$sql = "INSERT INTO phptodo.Shohin VALUES('$id','$name');";
-$Insert = $db->query($sql);
-?>
